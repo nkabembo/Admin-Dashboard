@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer ></script>
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <aside>
+        <a href="#" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="dashboard"><title>view-dashboard</title><path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" /></svg>
+            <h3 class="nav-text">Dashboard</h3>
+        </a>
+        <nav>
+            <div>
+                <a href="#">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="nav-text">Home</span>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-address-card"></i>
+                    <span class="nav-text">Profile</span>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-message"></i>
+                    <span class="nav-text">Messages</span>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-clock"></i>
+                    <span class="nav-text">History</span>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-file"></i>
+                    <span class="nav-text">Tasks</span>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-users"></i>
+                    <span class="nav-text">Communities</span>
+                </a>
+
+            </div>
+            <div>
+                <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="nav-text">Settings</span>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-circle-question"></i>
+                    <span class="nav-text">Support</span>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span class="nav-text">Privacy</span>
+                </a>
+            </div> 
+        </nav>
+        
+    </aside>
+    <main>
+        <header>
+            <div class="row1">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" name="" id="">
+                <span class="moon" onclick="setTheme('dark')">
+                    <i class="fa-solid fa-moon"></i>
+                </span>
+                <span class="sun" onclick="setTheme('light')">
+                    <i class="fa-regular fa-sun"></i> 
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="bell"><title>bell-ring-outline</title><path d="M10,21H14A2,2 0 0,1 12,23A2,2 0 0,1 10,21M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M17,11A5,5 0 0,0 12,6A5,5 0 0,0 7,11V18H17V11M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z" /></svg>
+                <img src="duck.png" alt="" class="small-img" >
+                <h4 class="name">Naghmeh Kabembo</h4>
+            </div>
+            <div class="row2">
+
+                <img src="duck.png" alt="" class="large-img" >
+                <div class="greeting">
+                    <span>Hi there,</span>
+                    <h3>Naghmeh Kabembo (@naghmeh)</h3>
+                </div>
+                <div class="buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+                
+            </div>
+        </header>
+        <div class="main">
+            <div class="left">
+                <h2 class="title">Your Projects</h2>
+                <div class="top-cards">
+                    <div class="cards">
+                        <h4>Form Builder</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reprehenderit sapiente quam quasi labore, animi eligendi ab aliquid eum laboriosam soluta, distinctio maiores, praesentium cumque. Dicta numquam aperiam quas officia.</p>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                    <div class="cards">
+                        <h4>Form Builder</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reprehenderit sapiente quam quasi labore, animi eligendi ab aliquid eum laboriosam soluta, distinctio maiores, praesentium cumque. Dicta numquam aperiam quas officia.</p>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                    <div class="cards">
+                        <h4>Form Builder</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reprehenderit sapiente quam quasi labore, animi eligendi ab aliquid eum laboriosam soluta, distinctio maiores, praesentium cumque. Dicta numquam aperiam quas officia.</p>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                    <div class="cards">
+                        <h4>Form Builder</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reprehenderit sapiente quam quasi labore, animi eligendi ab aliquid eum laboriosam soluta, distinctio maiores, praesentium cumque. Dicta numquam aperiam quas officia.</p>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                    <div class="cards">
+                        <h4>Form Builder</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reprehenderit sapiente quam quasi labore, animi eligendi ab aliquid eum laboriosam soluta, distinctio maiores, praesentium cumque. Dicta numquam aperiam quas officia.</p>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-eye"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                </div>
+                <div class="bottom-cards">
+                    <div class="photo-cards">
+                        <img src="photo1.jpg" alt="" class="project-photo card-img">
+                        <h4>Project title</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reprehenderit sapiente quam quasi labore, animi eligendi ab aliquid eum laboriosam soluta, distinctio maiores, praesentium cumque. Dicta numquam aperiam quas officia.</p>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="photo-cards">
+                        <img src="photo1.jpg" alt="" class="project-photo card-img">
+                        <h4>Project title</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reprehenderit sapiente quam quasi labore, animi eligendi ab aliquid eum laboriosam soluta, distinctio maiores, praesentium cumque. Dicta numquam aperiam quas officia.</p>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="photo-cards">
+                        <img src="photo1.jpg" alt="" class="project-photo card-img">
+                        <h4>Project title</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reprehenderit sapiente quam quasi labore, animi eligendi ab aliquid eum laboriosam soluta, distinctio maiores, praesentium cumque. Dicta numquam aperiam quas officia.</p>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="photo-cards">
+                        <img src="photo1.jpg" alt="" class="project-photo card-img">
+                        <h4>Project title</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reprehenderit sapiente quam quasi labore, animi eligendi ab aliquid eum laboriosam soluta, distinctio maiores, praesentium cumque. Dicta numquam aperiam quas officia.</p>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="photo-cards">
+                        <img src="photo1.jpg" alt="" class="project-photo card-img">
+                        <h4>Project title</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reprehenderit sapiente quam quasi labore, animi eligendi ab aliquid eum laboriosam soluta, distinctio maiores, praesentium cumque. Dicta numquam aperiam quas officia.</p>
+                        <div class="icons">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+
+            </div>  
+            <div class="right">
+                <div class="announce">
+                    <h4>Announcements</h4>
+                    <div class="announce-card">
+                        <h3>Site Maintenance</h3>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. At inventore quam explicabo officia ...
+                        </p>
+                        <h3>Site Maintenance</h3>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius laboriosam error vel, quos harum  ...
+                        </p>
+                        <h3>Site Maintenance</h3>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius laboriosam error vel,  ...
+                        </p>
+                        <h3>Site Maintenance</h3>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius laboriosam ...
+                        </p>
+                        <h3>Site Maintenance</h3>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius  ...
+                        </p>
+                        <h3>Site Maintenance</h3>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius laboriosam error vel, quos ...
+                        </p>
+                        <h3>Site Maintenance</h3>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius laboriosam minus officia ...
+                        </p>
+
+                    </div>
+                </div>
+                <div class="trending">
+                    <h4>Trending</h4>
+                    <div class="trending-card">
+                        <img src="eagle.png" alt="" class="small-img">
+                        <div>
+                            <h4>@caio</h4>
+                            <p class="project">World peace Builder</p>
+                        </div>
+                        
+                        <img src="duck.png" alt="" class="small-img">
+                        <div>
+                            <h4>@naghmeh</h4>
+                            <p class="project">Form Builder</p>
+                        </div>
+                        
+                        <img src="hen.png" alt="" class="small-img">
+                        <div>
+                            <h4>@tanin</h4>
+                            <p class="project">Etch a Sketch</p>
+                        </div>
+                        
+                        <img src="penguin.png" alt="" class="small-img">
+                        <div>
+                            <h4>@adib</h4>
+                            <p class="project">Calculator App</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>
